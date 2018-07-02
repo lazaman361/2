@@ -1,0 +1,144 @@
+body, body.signup, body.login{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+body.signup, body.login, body.addNews {
+    background: lightgray url("../images/background-signup-login.jpg") fixed center top;
+    background-size: cover;
+}
+
+nav li:hover{
+    background-color: lightgray;
+}
+
+nav{
+    border:1px solid black;
+}
+
+nav img{
+    padding-left: 10px;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+.centerTitleMain{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+.centerTitle{
+    text-align: center;
+}
+.center-div{
+    margin: 0 auto;
+    width:210px;
+}
+
+form{
+    max-width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    padding:15px;
+}
+
+form input{
+    padding-left: 3px;
+    border-radius: 5px;
+}
+
+form p{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.signup div, .login div{
+    color: white;
+}
+
+.redNotification{
+    text-transform: uppercase;
+    color: red !important;
+}
+
+button a:hover{
+    text-decoration: none;
+}
+
+.btn{
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.newsBox{
+    display: table-row;
+    padding: 5px;
+}
+.newsBox1{
+    display: table-cell;
+}
+.newsBox2{
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 10px;
+}
+.newsBox3{
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.img-responsive {
+    margin: 10px auto;
+}
+
+.adminComment{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imageNews{
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+body.signup, body.login, body.addNews {
+    background-image: url("../images/background-signup-login-640.jpg");
+    background-size: auto;
+}
+
+.boxed{
+    background-color: mediumblue;
+    border-radius: 10px;
+}
+.boxed a{
+    color: white !important;
+}
+
+.newsBox{
+    padding: 5px;
+}
+.newsBox1{
+    display: block;
+    margin-bottom: 5px;
+}
+.newsBox2{
+    display: block;
+}
+
+/*NE STAVLJAJ NISTA OVDE, OVO JE ZA TELEFONE*/
+}
