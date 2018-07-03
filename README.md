@@ -1,5 +1,19 @@
 ## My goal was to...
 
+**[English]**
+
+Make a website with an administration system. It is necessary for the website to provide the following functionalities: 
+
+- Login and registration.
+- News feed.
+- Adding comments.
+- News feed by categories (there is a navigation menu which enables choosing news by category).
+- Adding and removing news that only the website administrator can do.
+- Adding and removing comments that the website administrator can do.
+- Every user should be able to remove his own comment.
+
+**[Serbian/Srpski]**
+
 Napraviti web sajt i odgovarajući sistem administracije za njega. Potrebno je da sajt obezbeđuje sledeće funkcionalnosti:
 
 - Logovanje i registraciju korisnika.
