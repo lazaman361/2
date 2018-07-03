@@ -10,7 +10,7 @@ Make a website with an administration system. It is necessary for the website to
 - News feed by categories (there is a navigation menu which enables choosing news by category).
 - Adding and removing news that only the website administrator can do.
 - Adding and removing comments that the website administrator can do.
-- Every user should be able to remove his own comment.
+- Every user should be able to remove his own comments.
 
 **[Serbian/Srpski]**
 
